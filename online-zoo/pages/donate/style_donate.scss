@@ -538,6 +538,18 @@ body {
     color: #4B9200;
 } 
 
+.input_donate {
+    background: url(../../assets/icons/dollar.svg) no-repeat center left;
+    // padding-left:30px;
+    background-position: 95% 50%;
+}
+
+.input_donate:focus {
+    filter: invert(34%) sepia(97%) saturate(1053%) hue-rotate(59deg) brightness(101%) contrast(101%);
+}
+
+
+
 .feed_btn_block {
     height: 230px;
     width: 100%;
@@ -790,6 +802,13 @@ body {
     border-color: #4B9200;
 
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
 
 .form__body {
     width: 370px;
