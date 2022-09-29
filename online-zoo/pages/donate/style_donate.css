@@ -110,6 +110,20 @@ body {
   background-clip: text;
 }
 
+#donate {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#donate:active {
+  background: var(--bg-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .header__author__link {
   text-decoration: none;
   color: var(--bg-color);
@@ -489,6 +503,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  cursor: pointer;
 }
 
 .pick_btn:hover {
@@ -534,6 +549,7 @@ body {
   text-transform: uppercase;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .donate_btn:hover {
@@ -615,7 +631,11 @@ body {
   margin-right: 10px;
 }
 
-.circe_social:active {
+.social_row_block:active {
+  color: #4B9200;
+}
+
+.social_row_block:active .circe_social {
   background-color: #4B9200;
 }
 
@@ -624,7 +644,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   width: 800px;
-  height: 300px;
+  height: 310px;
 }
 
 .footer__navigation {
@@ -647,7 +667,7 @@ body {
 .form_block {
   width: 370px;
   margin-top: -10px;
-  margin-bottom: 210px;
+  margin-bottom: 200px;
   margin-right: 0px;
 }
 
@@ -660,7 +680,7 @@ body {
   font-size: 24px;
   line-height: 120%;
   color: #FFFFFF;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 
 .form__item {
@@ -713,6 +733,11 @@ body {
   font-size: 16px;
   line-height: 140%;
   color: var(--txt-color);
+  cursor: pointer;
+}
+
+.submit_btn:hover {
+  transform: scale(1.1);
 }
 
 .submit_btn:active {
@@ -751,9 +776,9 @@ body {
 }
 
 .footer__author {
-  padding-top: 5px;
+  padding-top: 15px;
   width: 230px;
-  height: 60px;
+  height: 70px;
 }
 
 .footer__author__link {
@@ -762,7 +787,7 @@ body {
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 170%;
   color: #FFFFFF;
   text-decoration: none;
 }
