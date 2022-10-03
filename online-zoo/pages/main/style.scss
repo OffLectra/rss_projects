@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 ul {
@@ -41,7 +40,6 @@ body {
     z-index: 1;
 }
 
-/* __________SECTION_1__________ */
 /* __________HEADER__________ */
 .logo_block {
     width: 82px;
@@ -146,6 +144,7 @@ body {
 }
 
 
+/* __________WATCH_ONLINE__________ */
 .section__watch_online {
     height: 780px;
     text-align: center;
@@ -249,7 +248,7 @@ body {
 
 
 
-/* __________SECTION_2__________ */
+/* __________BACKSTAGE__________ */
 .section__backstage {
     padding-top: 140px;
     padding-bottom: 140px;
@@ -330,7 +329,7 @@ body {
 }
 
 
-/* __________SECTION_3__________ */
+/* __________CHOOSE__________ */
 .section__choose_your_favorite {
     height: 1145px;
     background-color: var(--bg-color);
@@ -426,9 +425,6 @@ body {
     line-height: 120%;
     color: #E0D8F0;
 }
-// .card_subt
-
-// .card_txt_img
 
 .card {
     padding-top: 1px;
@@ -568,10 +564,8 @@ body {
 
 
 
+/* __________PICK_AND_FEED__________ */
 
-
-
-/* section4_pick-and-feed */
 .support_link {
     text-decoration-color: var(--accent-color);
     color: #333B41;
@@ -721,7 +715,7 @@ body {
 }
 
 
-
+/* __________TESTIMONIALS__________ */
 .section__testimonials {
     background-color: var(--bg-color);
     height: 920px;
@@ -877,10 +871,12 @@ body {
     position: absolute;
     overflow-x: hidden;
     width: 247px;
-    z-index: -1;
+    z-index: -3;
     right: 0px;
     top: 645px;
 }
+
+
 
 /* ____________FOOTER____________*/
 
@@ -933,6 +929,8 @@ body {
     height: 443px;
     width: 100%;
     background-color: var(--txt-color);
+    position: relative;
+    z-index: 2;
 }
 
 .footer__container {
