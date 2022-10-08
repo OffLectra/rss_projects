@@ -25,8 +25,9 @@
 }
 @media (max-width: 1001px) {
   .section__watch_online__bg {
-    margin-top: -70px;
-    margin-left: -80px;
+    margin-top: -110px;
+    margin-left: -140px;
+    width: 130%;
   }
 }
 
@@ -126,6 +127,7 @@
   .watch__btn {
     margin-right: 0px;
     margin-left: -215px;
+    margin-bottom: 30px;
   }
 }
 
@@ -151,7 +153,7 @@
 @media (max-width: 1001px) {
   .section__backstage {
     padding-top: 110px;
-    padding-bottom: 130px;
+    padding-bottom: 135px;
   }
 }
 
@@ -211,6 +213,11 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (max-width: 1001px) {
+  .dedushka {
+    width: 48%;
+  }
+}
 
 .bck_the_ {
   font-family: "Roboto";
@@ -255,8 +262,7 @@
 }
 @media (max-width: 1001px) {
   .section__choose_your_favorite {
-    height: 1090px;
-    overflow-x: hidden;
+    height: 1080px;
   }
 }
 
@@ -589,7 +595,7 @@
 }
 @media (max-width: 1001px) {
   .choose_btn_block {
-    height: 220px;
+    height: 170px;
   }
 }
 
@@ -667,7 +673,7 @@
 @media (max-width: 1001px) {
   .pick_and_feed__container {
     height: 796px;
-    padding-top: 28px;
+    padding-top: 28px !important;
   }
 }
 
@@ -696,7 +702,7 @@
 }
 @media (max-width: 1001px) {
   .pick_subtitle {
-    margin: 20px 50px;
+    margin: 25px 47px;
   }
 }
 
@@ -849,7 +855,7 @@
 @media (max-width: 1001px) {
   .testimonials_title {
     padding-top: 100px;
-    margin-bottom: 75px;
+    margin-bottom: 80px;
   }
 }
 
@@ -893,8 +899,8 @@
 }
 @media (max-width: 1001px) {
   .testimonial_border {
-    width: 293px;
     height: 391px;
+    max-width: 310px;
   }
 }
 
@@ -975,6 +981,12 @@
 .testimonials_content_block {
   display: flex;
   gap: 30px;
+}
+@media (max-width: 1001px) {
+  .testimonials_content_block {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .testimonials_prokrutka {
