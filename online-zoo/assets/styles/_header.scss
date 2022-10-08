@@ -1,0 +1,132 @@
+/* __________HEADER__________ */
+.header {
+    background-color: var(--txt-color);
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.header__container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80px;
+    width: inherit;
+    width: 1160px;
+
+}
+
+.header__logo {
+    
+}
+
+.container_for_this_stuff {
+    // max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    // margin-right: 440px;
+    width: 910px;
+    // box-sizing: border-box;
+    // min-width: 470px;
+    max-width: 910px;
+    // width: clamp(470px, 50%, 910px);
+    @media (max-width:1001px) {
+        // width: 800px;
+        max-width: 690px;
+    }
+}
+
+
+.logo_block {
+    width: 82px;
+    height: 52px;
+    left: 220px;
+    top: 14px;
+    border: 1.18841px solid #FFFFFF;
+    margin-right: 63px;
+    @media (max-width: 1001px) {
+
+    }
+}
+.bambuk {
+    margin-top: -27px;
+    margin-left: -51px;
+}
+
+.main_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 3px auto;
+}
+
+
+.menu__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // max-width: 472px;
+    gap: 58px;
+    @media (max-width:1001px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+}
+.menu_item {
+}
+.menu__link {
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+#about {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.menu__link:active {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    // text-fill-color: transparent;
+}
+
+#about:active {
+    // color: var(--bg-color);
+    background:  var(--bg-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header__author__link {
+    color: var(--bg-color);
+}
+
+.header__author__link:active {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    // text-fill-color: transparent;
+}
+
