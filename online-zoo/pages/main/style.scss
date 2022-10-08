@@ -272,7 +272,7 @@
     @media (max-width:1001px) {
         // width: 940px;
         padding-top: 0px;
-        // overflow-x: hidden;
+        overflow-x: hidden;
     }
 }
 
@@ -293,6 +293,7 @@
     @media (max-width:1001px) {
         height: 820px;
         margin: 0px 0px;
+        
     }
 }
 
@@ -307,6 +308,7 @@
     @media (max-width:1001px) {
         // width: 1275px;
         gap: 32px;
+        // overflow: hidden;
     }
 }
 
