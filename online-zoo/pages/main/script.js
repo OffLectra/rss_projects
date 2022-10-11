@@ -1,1 +1,1 @@
-// alert('Work in progress! Give me 24 hours, please =) | Работа в процессе! Позволь мне доделать макет в течение 2 часов, пожалуйста =)')
+alert('Work in progress! Give me some time, please =) | Работа в процессе! Позволь мне доделать, пожалуйста =)')
